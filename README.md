@@ -1,6 +1,8 @@
-## Author 
+## Author: 
 Satabdi Satyapragnya Swain
 
+
+## Some Desing Webpages:
 ![image](https://github.com/user-attachments/assets/1729588b-0e9e-4d35-890b-cc0208fc9834)
 
 ![image](https://github.com/user-attachments/assets/dd4ecc8c-de05-45fc-8aaa-c7e9f24ffe55)
