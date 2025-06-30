@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My WebSite</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMA5zB9K5iV66G1fP4U0jDZc3aIzL7nZxUjohU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- Nav bar Start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+    <div class="container" style="display: flex;">
+      <a class="navbar-brand" href="#">
+        <img src="https://live.themewild.com/firebrig/assets/img/logo/logo.png" alt="Logo"
+          style="width: 200px; height: auto; margin-top: -10px;">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>Home</strong></a>
+            <ul class="dropdown-menu fade-down">
+              <li><a class="dropdown-item" href="#">Option-1</a></li>
+              <li><a class="dropdown-item" href="#">Option-2</a></li>
+              <li><a class="dropdown-item" href="#">Option-3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mr-3 active">
+            <a class="nav-link" href="#"><strong>About</strong></a>
+          </li>
+          <li class="nav-item dropdown mr-3 active">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>Service</strong></a>
+            <ul class="dropdown-menu fade-down">
+              <li><a class="dropdown-item" href="#">Consultation</a></li>
+              <li><a class="dropdown-item" href="#">Emergency Services</a></li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Health Packages</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Basic Health Package</a></li>
+                  <li><a class="dropdown-item" href="#">Advanced Health Package</a></li>
+                  <li><a class="dropdown-item" href="#">Premium Health Package</a></li>
+                </ul>
+              </li>
+              <li><a class="dropdown-item" href="#">Health Checkups</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mr-3 active">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>Pages</strong></a>
+            <ul class="dropdown-menu fade-down">
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Our Team</a></li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Testimonials</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Patient Stories</a></li>
+                  <li><a class="dropdown-item" href="#">Doctor Reviews</a></li>
+                </ul>
+              </li>
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mr-3 active">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>Campaigns</strong></a>
+            <ul class="dropdown-menu fade-down">
+              <li><a class="dropdown-item" href="#">Health Awareness</a></li>
+              <li><a class="dropdown-item" href="#">Fundraising Events</a></li>
+              <li><a class="dropdown-item" href="#">Community Outreach</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mr-3 active">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"><strong>Blog</strong></a>
+            <ul class="dropdown-menu fade-down">
+              <li><a class="dropdown-item" href="#">Latest Updates</a></li>
+              <li><a class="dropdown-item" href="#">Health Tips</a></li>
+              <li><a class="dropdown-item" href="#">Patient Stories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><strong>Contact</strong></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right d-flex align-items-center">
+        <div class="search-btn">
+          <button type="button" class="nav-right-link">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="nav-right-call d-flex align-items-center ml-5">
+          <span class="call-icon">
+            <i class="fa-solid fa-phone-volume"></i>
+          </span>
+          <div class="call-content">
+            <span>Emergency call</span>
+            <h4>
+              <a class="anchor" href="tel:+2555666888">+2555666888</a>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav bar END -->
+
+  <!-- Slider Stert -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://live.themewild.com/firebrig/assets/img/slider/slider-3.jpg" alt="Los Angeles"
+          class="carousel-image">
+        <div class="carousel-caption" data-aos="fade-up">
+          <h2 class="service-title"><i class="fas fa-fire"></i> Fire &amp; Rescue Service!</h2>
+          <p class="service-subtitle">We Are Here To Save </p>
+          <p class="service-subtitle"><span style="color: #ffcc00;">Lives</span> &amp; Properties</p>
+          <p class="service-description">There are many variations of passages of Lorem Ipsum available but the majority
+            have suffered alteration in some form by injected humour.</p>
+          <a href="#about" class="btn" style="background-color : #ffcc00"><b>About More</b></a>
+          <a href="#learn" class="btn btn-success"><b>Learn More</b></a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://live.themewild.com/firebrig/assets/img/slider/slider-2.jpg" alt="Chicago"
+          class="carousel-image">
+        <div class="carousel-caption" data-aos="fade-up">
+          <h2 class="service-title"><i class="fas fa-fire"></i> Fire &amp; Rescue Service!</h2>
+          <p class="service-subtitle">We Are Here To Save</p>
+          <p class="service-subtitle"><span style="color: #ffcc00;">Lives</span> &amp; Properties</p>
+          <p class="service-description">There are many variations of passages of Lorem Ipsum available but the majority
+            have suffered alteration in some form by injected humour.</p>
+          <a href="#about" class="btn" style="background-color : #ffcc00"><b>About More</b></a>
+          <a href="#learn" class="btn btn-success"><b>Learn More</b></a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://live.themewild.com/firebrig/assets/img/slider/slider-1.jpg" alt="New York"
+          class="carousel-image">
+        <div class="carousel-caption" data-aos="fade-up">
+          <h2 class="service-title"><i class="fas fa-fire"></i> Fire &amp; Rescue Service!</h2>
+          <p class="service-subtitle">We Are Here To Save</p>
+          <p class="service-subtitle"><span style="color: #ffcc00;">Lives</span> &amp; Properties</p>
+          <p class="service-description">There are many variations of passages of Lorem Ipsum available but the majority
+            have suffered alteration in some form by injected humour.</p>
+          <a href="#about" class="btn" style="background-color : #ffcc00"><b>About More</b></a>
+          <a href="#learn" class="btn btn-success"><b>Learn More</b></a>
+        </div>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- Slider Stert -->
+
+  <!-- About US Start -->
+  <div class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 image-container">
+        <div class="image-wrapper">
+          <div class="experience-badge">
+            <img src="https://live.themewild.com/firebrig/assets/img/icon/fire-truck.svg" alt="Icon"
+              style="width: 20px; margin-right: 5px;"> <span style="color:black"><b>30 Years of Experience</b></span>
+          </div>
+          <img src="https://live.themewild.com/firebrig/assets/img/about/01.jpg" class="img-fluid rounded shadow"
+            alt="Firefighters">
+        </div>
+      </div>
+      <div class="col-md-6 text-content">
+        <p class="text-uppercase text-warning fw-bold" style="font-size: 25px;"><i class="fas fa-fire"></i> About Us</p>
+        <h2 class="fw-bold">Fire & Rescue <span class="highlighted-text">Dept. Is Dedicated</span> For Saving Your Lives
+        </h2>
+        <p style="font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
+          libero. Sed cursus ante
+          dapibus diam.</p>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-check-circle-fill text-warning"></i> At vero eos et accusamus et iusto odio.</li>
+          <li><i class="bi bi-check-circle-fill text-warning"></i> Established fact that a reader will be distracted.
+          </li>
+          <li><i class="bi bi-check-circle-fill text-warning"></i> Sed ut perspiciatis unde omnis iste natus sit.</li>
+        </ul>
+        <a href="#" class="btn btn-warning text-white">Discover More</a>
+      </div>
+    </div>
+  </div>
+  <!-- About US END -->
+
+  <!-- Services Start -->
+  <div class="container-fluid text-center my-5" style="background-color: rgb(247, 245, 241);">
+    <p class="text-uppercase text-warning fw-bold my-5" style="font-size: 25px;"><i class="fas fa-fire"></i>
+      <b>Services</b>
+    </p>
+    <h2 class="fw-bold" style="font-size: 38px;"><b>A Safer Community <span style="color: #ffcc00;">Services</span> In
+        Your Area</b></h2>
+    <div class="container Servicecontainer" style="background-color: rgb(245, 232, 210);">
+      <div class="row mt-4">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/service/01.jpg" class="card-img-top"
+              alt="Fire Fighting">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Fire Fighting</h5>
+              <p class="card-text">There are many variations of passages lorem ipsum available but the majority have
+                suffered alteration in some form by injected.</p>
+              <a href="#" class="btn btn-warning text-white">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/service/02.jpg" class="card-img-top"
+              alt="Operation Force">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Operation Force</h5>
+              <p class="card-text">There are many variations of passages lorem ipsum available but the majority have
+                suffered alteration in some form by injected.</p>
+              <a href="#" class="btn btn-warning text-white">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100  service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/service/03.jpg" class="card-img-top"
+              alt="Fire Suppression">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Fire Suppression</h5>
+              <p class="card-text">There are many variations of passages lorem ipsum available but the majority have
+                suffered alteration in some form by injected.</p>
+              <a href="#" class="btn btn-warning text-white">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/service/04.jpg" class="card-img-top"
+              alt="Fire Suppression">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Fire Suppression</h5>
+              <p class="card-text">There are many variations of passages lorem ipsum available but the majority have
+                suffered alteration in some form by injected.</p>
+              <a href="#" class="btn btn-warning text-white">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/service/05.jpg" class="card-img-top"
+              alt="Fire Suppression">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Fire Suppression</h5>
+              <p class="card-text">There are many variations of passages lorem ipsum available but the majority have
+                suffered alteration in some form by injected.</p>
+              <a href="#" class="btn btn-warning text-white">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/service/06.jpg" class="card-img-top"
+              alt="Fire Suppression">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Fire Suppression</h5>
+              <p class="card-text">There are many variations of passages lorem ipsum available but the majority have
+                suffered alteration in some form by injected.</p>
+              <a href="#" class="btn btn-warning text-white">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services END -->
+
+  <!-- Gallery Start -->
+  <div class="container-fluid text-center" style="background-color: rgb(247, 234, 208);">
+    <p class="text-uppercase text-warning fw-bold my-5" style="font-size: 25px;">
+      <i class="fas fa-fire"></i> <b>Gallery</b>
+    </p>
+    <h2 class="fw-bold" style="font-size: 38px;">
+      <b>Let's Check Our Latest Photo <span style="color: #ffcc00;">Gallery</span></b>
+    </h2>
+    <div class="container gallery-section" style="background-color: rgb(247, 234, 208);">
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/gallery/01.jpg" class="card-img-top"
+              alt="Gallery Image 1">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/gallery/02.jpg" class="card-img-top"
+              alt="Gallery Image 2">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/gallery/03.jpg" class="card-img-top"
+              alt="Gallery Image 3">
+          </div>
+        </div>
+      </div>
+      <div class="row g-3 my-5">
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/gallery/04.jpg" class="card-img-top"
+              alt="Gallery Image 4">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/gallery/05.jpg" class="card-img-top"
+              alt="Gallery Image 5">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card gallery-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/gallery/06.jpg" class="card-img-top"
+              alt="Gallery Image 6">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gallery END -->
+
+  <!-- Score Section Start -->
+  <div class="container-fluid stats-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 stat" data-target="500">
+          <div class="stat-icon">
+            <i class="bi bi-truck"></i>
+          </div>
+          <div class="stat-number">0</div>
+          <div class="stat-text">+ Inspection Requests</div>
+        </div>
+        <div class="col-6 col-md-3 stat" data-target="900">
+          <div class="stat-icon">
+            <i class="bi bi-building"></i>
+          </div>
+          <div class="stat-number">0</div>
+          <div class="stat-text">+ Property Saved</div>
+        </div>
+        <div class="col-6 col-md-3 stat" data-target="1500">
+          <div class="stat-icon">
+            <i class="bi bi-person-badge"></i>
+          </div>
+          <div class="stat-number">0</div>
+          <div class="stat-text">+ Our Firefighters</div>
+        </div>
+        <div class="col-6 col-md-3 stat" data-target="30">
+          <div class="stat-icon">
+            <i class="bi bi-calendar-check"></i>
+          </div>
+          <div class="stat-number">0</div>
+          <div class="stat-text">+ Years Of Experience</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Score Section END -->
+
+  <!-- Video Section Start -->
+  <div class="container-fluid text-center" style="background-color: white">
+    <p class="text-uppercase text-warning fw-bold my-5" style="font-size: 25px;">
+      <i class="fas fa-fire"></i> <b>Watch Video</b>
+    </p>
+    <h2 class="fw-bold" style="font-size: 38px;">
+      <b>Watch Our Latest <span style="color: #ffcc00;">Activities</span></b>
+    </h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="video-wrapper">
+            <div class="play-button" onclick="openModal()">
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div id="videoModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <iframe id="videoFrame" width="928" height="522" src="" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  <!-- Video Section END -->
+
+  <!-- Upcoming Event Section Start -->
+  <div class="container-fluid text-center" style="background-color: rgb(253, 230, 230)">
+    <p class="text-uppercase text-warning fw-bold my-5" style="font-size: 25px;">
+      <i class="fas fa-fire"></i> <b>UPCOMING EVENTS</b>
+    </p>
+    <h2 class="fw-bold" style="font-size: 38px;">
+      <b>Join Our Event <span style="color: #ffcc00;">For Your Contribution</span></b>
+    </h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="event-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/event/01.jpg" alt="Event Image 1">
+            <div>
+              <p><i class="bi bi-calendar"></i> 24 Mar 2024 | <i class="bi bi-geo-alt"></i> New York, USA</p>
+              <h5 class="card-title">Fire Prevention Seminar</h5>
+              <p class="card-text">There are many variations of words passages available have suffered alteration the
+                majority.</p>
+              <a href="#" class="btn btn-warning btn-join">JOIN NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="event-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/event/02.jpg" alt="Event Image 2">
+            <div>
+              <p><i class="bi bi-calendar"></i> 24 Mar 2024 | <i class="bi bi-geo-alt"></i> New York, USA</p>
+              <h5 class="card-title">Fire Prevention Seminar</h5>
+              <p class="card-text">There are many variations of words passages available have suffered alteration the
+                majority.</p>
+              <a href="#" class="btn btn-warning btn-join">JOIN NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="event-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/event/02.jpg" alt="Event Image 2">
+            <div>
+              <p><i class="bi bi-calendar"></i> 24 Mar 2024 | <i class="bi bi-geo-alt"></i> New York, USA</p>
+              <h5 class="card-title">Fire Prevention Seminar</h5>
+              <p class="card-text">There are many variations of words passages available have suffered alteration the
+                majority.</p>
+              <a href="#" class="btn btn-warning btn-join">JOIN NOW</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="event-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/event/02.jpg" alt="Event Image 2">
+            <div>
+              <p><i class="bi bi-calendar"></i> 24 Mar 2024 | <i class="bi bi-geo-alt"></i> New York, USA</p>
+              <h5 class="card-title">Fire Prevention Seminar</h5>
+              <p class="card-text">There are many variations of words passages available have suffered alteration the
+                majority.</p>
+              <a href="#" class="btn btn-warning btn-join">JOIN NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Upcoming Event Section END -->
+
+  <!-- Firefighters Section Start -->
+  <div class="container-fluid text-center" style="background-color: white">
+    <p class="text-uppercase text-warning fw-bold my-5" style="font-size: 25px;">
+      <i class="fas fa-fire"></i> <b>Firefighters</b>
+    </p>
+    <h2 class="fw-bold" style="font-size: 38px;">
+      <b>Meet With Our <span style="color: #ffcc00;">Expert</span> Firefighters</b>
+    </h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card firefighter-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/team/01.jpg" alt="Angela T. Vigil">
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Angela T. Vigil</h5>
+              <p class="role">Firefighter</p>
+              <div class="triangle-divider"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card firefighter-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/team/02.jpg" alt="Frank A. Mitchell">
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Frank A. Mitchell</h5>
+              <p class="role">Firefighter</p>
+              <div class="triangle-divider"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card firefighter-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/team/03.jpg" alt="Susan D. Longford">
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Susan D. Longford</h5>
+              <p class="role">Firefighter</p>
+              <div class="triangle-divider"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card firefighter-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/team/04.jpg" alt="Dennis A. Pruitt">
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Dennis A. Pruitt</h5>
+              <p class="role">Firefighter</p>
+              <div class="triangle-divider"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Firefighters Section END -->
+
+  <!-- TESTIMONIALS Section Start -->
+  <div class="container-fluid text-center TESTIMONIALScontainer-fluid" style="background-color: rgb(253, 230, 230)">
+    <p class="text-uppercase text-warning fw-bold my-5" style="font-size: 25px;">
+      <i class="fas fa-fire"></i> <b>TESTIMONIALS</b>
+    </p>
+    <h2 class="fw-bold" style="font-size: 38px;">
+      <b style="color: white;">Public Safety <span style="color: #ffcc00;">Supply</span> Reviews</b>
+    </h2>
+    <div class="testimonial-carousel">
+      <div class="row testimonials">
+        <div class="col-md-4 testimonial-card">
+          <img src="https://live.themewild.com/firebrig/assets/img/testimonial/01.jpg" alt="Profile"
+            class="profile-img">
+          <h5>Randal Grand</h5>
+          <p class="role">Our Citizen</p>
+          <p style="font-size: 14px;">There are many variations of passages available but the majority </p>
+          <p style="font-size: 14px;"> have suffered alteration in some form by injected humour.</p>
+          <div class="rating">★★★★★</div>
+          <div class="quote-mark">❞</div>
+        </div>
+        <div class="col-md-4 testimonial-card">
+          <img src="https://live.themewild.com/firebrig/assets/img/testimonial/02.jpg" alt="Profile"
+            class="profile-img">
+          <h5>Randal Grand</h5>
+          <p class="role">Our Citizen</p>
+          <p style="font-size: 14px;">There are many variations of passages available but the majority </p>
+          <p style="font-size: 14px;"> have suffered alteration in some form by injected humour.</p>
+          <div class="rating">★★★★★</div>
+          <div class="quote-mark">❞</div>
+        </div>
+        <div class="col-md-4 testimonial-card">
+          <img src="https://live.themewild.com/firebrig/assets/img/testimonial/03.jpg" alt="Profile"
+            class="profile-img">
+          <h5>Randal Grand</h5>
+          <p class="role">Our Citizen</p>
+          <p style="font-size: 14px;">There are many variations of passages available but the majority </p>
+          <p style="font-size: 14px;"> have suffered alteration in some form by injected humour.</p>
+          <div class="rating">★★★★★</div>
+          <div class="quote-mark">❞</div>
+        </div>
+        <div class="col-md-4 testimonial-card">
+          <img src="https://live.themewild.com/firebrig/assets/img/testimonial/04.jpg" alt="Profile"
+            class="profile-img">
+          <h5>Edward Miles</h5>
+          <p class="role">Our Citizen</p>
+          <p style="font-size: 14px;">There are many variations of passages available but the majority </p>
+          <p style="font-size: 14px;"> have suffered alteration in some form by injected humour.</p>
+          <div class="rating">★★★★★</div>
+          <div class="quote-mark">❞</div>
+        </div>
+        <div class="col-md-4 testimonial-card">
+          <img src="https://live.themewild.com/firebrig/assets/img/testimonial/05.jpg" alt="Profile"
+            class="profile-img">
+          <h5>Ninal Gordon</h5>
+          <p class="role">Our Citizen</p>
+          <p style="font-size: 14px;">There are many variations of passages available but the majority </p>
+          <p style="font-size: 14px;"> have suffered alteration in some form by injected humour.</p>
+          <div class="rating">★★★★★</div>
+          <div class="quote-mark">❞</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- TESTIMONIALS Section END -->
+
+  <!-- Our Blog Section Start -->
+  <div class="container-fluid text-center" style="background-color: white">
+    <p class="text-uppercase text-warning fw-bold my-5" style="font-size: 25px;">
+      <i class="fas fa-fire"></i> <b>OUR BLOG</b>
+    </p>
+    <h2 class="fw-bold" style="font-size: 38px;">
+      <b>Latest News & <span style="color: #ffcc00;">Blog</span></b>
+    </h2>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/blog/01.jpg" class="card-img-top"
+              alt="Firefighters">
+            <div class="card-body">
+              <div class="d-flex mb-2">
+                <span class="card-author me-3"><i class="bi bi-person-fill"></i> By Alicia Davis</span>&nbsp;
+                <span class="card-date"><i class="bi bi-calendar-fill"></i> March 25, 2024</span>
+              </div>
+              <h5 class="card-title">There Are Many Variations Of Passage Available.</h5>
+              <p class="card-text">There are many variations of passages but the majority have suffered alteration
+                in
+                some
+                form by injected humour.</p>
+              <a href="#" class="btn btn-warning">READ MORE →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/blog/02.jpg" class="card-img-top"
+              alt="Firefighters">
+            <div class="card-body">
+              <div class="d-flex mb-2">
+                <span class="card-author me-3"><i class="bi bi-person-fill"></i> By Alicia Davis</span>&nbsp;
+                <span class="card-date"><i class="bi bi-calendar-fill"></i> March 25, 2024</span>
+              </div>
+              <h5 class="card-title">There Are Many Variations Of Passage Available.</h5>
+              <p class="card-text">There are many variations of passages but the majority have suffered alteration
+                in
+                some
+                form by injected humour.</p>
+              <a href="#" class="btn btn-warning">READ MORE →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card service-card">
+            <img src="https://live.themewild.com/firebrig/assets/img/blog/03.jpg" class="card-img-top"
+              alt="Firefighters">
+            <div class="card-body">
+              <div class="d-flex mb-2">
+                <span class="card-author me-3"><i class="bi bi-person-fill"></i> By Alicia Davis</span>&nbsp;
+                <span class="card-date"><i class="bi bi-calendar-fill"></i> March 25, 2024</span>
+              </div>
+              <h5 class="card-title">There Are Many Variations Of Passage Available.</h5>
+              <p class="card-text">There are many variations of passages but the majority have suffered alteration
+                in
+                some
+                form by injected humour.</p>
+              <a href="#" class="btn btn-warning">READ MORE →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Our Blog Section END -->
+
+  <!-- Logo Section Start -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-md-2 col-lg-2 logo-container">
+        <img src="https://live.themewild.com/firebrig/assets/img/partner/01.png" alt="Logo" class="logo">
+      </div>
+
+      <div class="col-6 col-md-2 col-lg-2 logo-container">
+        <img src="https://live.themewild.com/firebrig/assets/img/partner/01.png" alt="Logo" class="logo">
+      </div>
+
+      <div class="col-6 col-md-2 col-lg-2 logo-container">
+        <img src="https://live.themewild.com/firebrig/assets/img/partner/01.png" alt="Logo" class="logo">
+      </div>
+
+      <div class="col-6 col-md-2 col-lg-2 logo-container">
+        <img src="https://live.themewild.com/firebrig/assets/img/partner/01.png" alt="Logo" class="logo">
+      </div>
+
+      <div class="col-6 col-md-2 col-lg-2 logo-container">
+        <img src="https://live.themewild.com/firebrig/assets/img/partner/01.png" alt="Logo" class="logo">
+      </div>
+
+      <div class="col-6 col-md-2 col-lg-2 logo-container">
+        <img src="https://live.themewild.com/firebrig/assets/img/partner/01.png" alt="Logo" class="logo">
+      </div>
+    </div>
+  </div>
+  <!-- Logo Section END -->
+
+  <!--Footer Section Start-->
+  <div class="container-fluid">
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Logo and Contact Info -->
+                <div class="col-md-3">
+                    <h5><img src="https://live.themewild.com/firebrig/assets/img/logo/logo.png" alt="Logo" style="width: 150px; height: auto;"></h5>
+                    <p>We are many variations of passages available but the majority have suffered alteration in some form by injected humour words believable.</p>
+                    <div class="contact-info">
+                        <p><i class="bi bi-telephone"></i> +2 123 654 7898</p>
+                        <p><i class="bi bi-geo-alt"></i> 25/B Milford Road, New York</p>
+                        <p><i class="bi bi-envelope"></i> info@example.com</p>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-3 quick-links">
+                    <h5>Quick Links</h5>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">FAQs</a></p>
+                    <p><a href="#">Testimonials</a></p>
+                    <p><a href="#">Terms of Service</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Update News</a></p>
+                </div>
+
+                <!-- Our Services -->
+                <div class="col-md-3 our-services">
+                    <h5>Our Services</h5>
+                    <p><a href="#">Fire Fighting</a></p>
+                    <p><a href="#">Operation Force</a></p>
+                    <p><a href="#">Fire Suppression</a></p>
+                    <p><a href="#">Ambulance Service</a></p>
+                    <p><a href="#">Fire Investigation</a></p>
+                    <p><a href="#">Community Safety</a></p>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-md-3">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe Our Newsletter To Get Latest Update And News</p>
+                    <form class="newsletter">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit">SUBSCRIBE NOW</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid footer-bottom">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <p>&copy; Copyright 2024 FIREBRIG All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!--Footer Section END-->
+
+  <!-- Footer Bottom Section Start-->
+  <!-- Footer Bottom Section END-->
+
+  <!--Script Section Start-->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+    $('#myCarousel').on('slide.bs.carousel', function () {
+      const captions = $(this).find('.carousel-caption');
+      captions.removeAttr('data-aos');
+      setTimeout(() => {
+        captions.attr('data-aos', 'fade-up');
+        AOS.refresh();
+      }, 50);
+    });
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const stats = document.querySelectorAll('.stat');
+      stats.forEach(stat => {
+        const target = +stat.getAttribute('data-target');
+        let count = 0;
+        const speed = Math.ceil(target / 100);
+
+        const updateCount = () => {
+          if (count < target) {
+            count += 1;
+            stat.querySelector('.stat-number').textContent = count;
+            setTimeout(updateCount, speed);
+          } else {
+            stat.querySelector('.stat-number').textContent = target;
+          }
+        };
+        updateCount();
+      });
+    });
+  </script>
+  <script>
+    function openModal() {
+      document.getElementById("videoFrame").src = "https://www.youtube.com/embed/3N7EUi3-PG8";
+      document.getElementById("videoModal").style.display = "block";
+    }
+    function closeModal() {
+      document.getElementById("videoFrame").src = "";
+      document.getElementById("videoModal").style.display = "none";
+    }
+    window.onclick = function (event) {
+      const modal = document.getElementById("videoModal");
+      if (event.target === modal) {
+        closeModal();
+      }
+    }
+  </script>
+  <script>
+    setInterval(() => updateIndex(1), 2000);
+
+    let currentIndex = 0;
+    const testimonials = document.querySelectorAll('.testimonial-card');
+    const totalTestimonials = testimonials.length;
+
+    function showTestimonials(index) {
+      testimonials.forEach((card, i) => {
+        card.classList.remove('active');
+        if (i >= index && i < index + 3) {
+          card.classList.add('active');
+        }
+      });
+    }
+
+    function updateIndex(increment) {
+      currentIndex = (currentIndex + increment + totalTestimonials) % totalTestimonials;
+      showTestimonials(currentIndex);
+    }
+    showTestimonials(currentIndex);
+    document.querySelector('.next').addEventListener('click', () => updateIndex(1));
+    document.querySelector('.prev').addEventListener('click', () => updateIndex(-1));
+    setInterval(() => updateIndex(1), 2000);
+  </script>
+  <!--Script Section Start-->
+</body>
+
+</html>
